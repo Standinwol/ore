@@ -9,7 +9,7 @@ do
     echo "This is the ${i}th loop"
 
     # Run yarn command
-    ore  --rpc https://api.mainnet-beta.solana.com --keypair ~/.config/solana/id.json  --priority-fee 1 mine --threads 4
+    ore  --rpc https://solana-mainnet.g.alchemy.com/v2/R4TGz45-Yxn4WrfOsalVhlc-8iyncYN3 --keypair ~/.config/solana/id.json  --priority-fee 1 mine --threads 4
 
     # Check whether the command was executed successfully
     if [ $? -ne 0 ]; then
