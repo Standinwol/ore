@@ -9,7 +9,7 @@ do
     echo "This is the ${i}th loop"
 
     # Run yarn command
-    ore  --rpc https://mainnet.helius-rpc.com/?api-key=e25b1bbd-1eaf-4141-8a06-9db33d1250c5 --keypair ~/.config/solana/id.json  --priority-fee 500000 mine --threads 4
+    ore  --rpc https://mainnet.helius-rpc.com/?api-key=e25b1bbd-1eaf-4141-8a06-9db33d1250c5 --keypair ~/.config/solana/id.json  --priority-fee 250000 mine --threads 4
 
     # Check whether the command was executed successfully
     if [ $? -ne 0 ]; then
